@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: prod
+
+#mybatis xml和bean 具体位置
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+  type-aliases-package: com.lhx.dao
